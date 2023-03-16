@@ -13,8 +13,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\MainForm.cs" Link="MainForm.cs" />
+    <Compile Include="..\MainForm.Designer.cs" Link="MainForm.Designer.cs" />
+    <Compile Include="..\Shared.cs" Link="Shared.cs" />
     <Compile Include="..\WalkmanLib\WalkmanLibTheming.cs" Link="WalkmanLibTheming.cs" />
     <Compile Include="..\WalkmanLib\WalkmanLibWin32.cs" Link="WalkmanLibWin32.cs" />
+    <EmbeddedResource Include="..\MainForm.resx" Link="MainForm.resx" />
   </ItemGroup>
 
   <ItemGroup>
