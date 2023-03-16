@@ -12,4 +12,15 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\WalkmanLib\WalkmanLibTheming.cs" Link="WalkmanLibTheming.cs" />
+    <Compile Include="..\WalkmanLib\WalkmanLibWin32.cs" Link="WalkmanLibWin32.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
