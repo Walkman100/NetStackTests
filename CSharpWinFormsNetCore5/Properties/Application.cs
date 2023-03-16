@@ -8,6 +8,8 @@ namespace CSharpWinFormsNetCore5.Properties {
         /// </summary>
         [STAThread]
         static void Main() {
+            if (MessageBox.Show("Enable DPI SystemAware?", null, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Forms.MainForm());

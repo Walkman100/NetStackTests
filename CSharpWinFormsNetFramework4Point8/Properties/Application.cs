@@ -8,9 +8,14 @@ namespace CSharpWinFormsNetFramework4Point8.Properties {
         /// </summary>
         [STAThread]
         static void Main() {
+            if (MessageBox.Show("Enable Process DPIAware?", null, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Forms.MainForm());
         }
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern bool SetProcessDPIAware();
     }
 }
