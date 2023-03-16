@@ -46,6 +46,8 @@
     <Compile Include="..\Shared.cs">
       <Link>Shared.cs</Link>
     </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\App.config" />

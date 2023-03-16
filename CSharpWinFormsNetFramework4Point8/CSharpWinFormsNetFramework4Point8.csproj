@@ -64,6 +64,8 @@
     <Compile Include="..\WalkmanLib\WalkmanLibWin32.cs">
       <Link>WalkmanLibWin32.cs</Link>
     </Compile>
+    <Compile Include="Properties\Application.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\App.config" />
