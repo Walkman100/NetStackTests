@@ -40,5 +40,17 @@ public static class Shared {
 #if NET5_0_OR_GREATER
         Console.WriteLine("NetCore 5.0+");
 #endif
+#if NET6_0
+            Console.WriteLine("NetCore 6.0");
+#endif
+#if NET6_0_OR_GREATER
+        Console.WriteLine("NetCore 6.0+");
+#endif
+#if NET7_0
+        Console.WriteLine("NetCore 7.0");
+#endif
+#if NET7_0_OR_GREATER
+        Console.WriteLine("NetCore 7.0+");
+#endif
     }
 }

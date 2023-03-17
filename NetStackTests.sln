@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore3", "CSharpConsoleNetCore3\CSharpConsoleNetCore3.csproj", "{3BBDAE8D-12B0-437B-97ED-1DACBCEF047D}"
 EndProject
@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WalkmanLib\WalkmanLibTheming.cs = WalkmanLib\WalkmanLibTheming.cs
 		WalkmanLib\WalkmanLibWin32.cs = WalkmanLib\WalkmanLibWin32.cs
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetCore6", "CSharpConsoleNetCore6\CSharpConsoleNetCore6.csproj", "{B0462F9C-5083-4D50-8169-4F9DFDA40824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetCore7", "CSharpConsoleNetCore7\CSharpConsoleNetCore7.csproj", "{724273DC-6509-4358-A706-69C49A6B8B8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{48B72F8F-54BA-4741-9F9B-D3E18EBCA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B72F8F-54BA-4741-9F9B-D3E18EBCA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B72F8F-54BA-4741-9F9B-D3E18EBCA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0462F9C-5083-4D50-8169-4F9DFDA40824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0462F9C-5083-4D50-8169-4F9DFDA40824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0462F9C-5083-4D50-8169-4F9DFDA40824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0462F9C-5083-4D50-8169-4F9DFDA40824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724273DC-6509-4358-A706-69C49A6B8B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724273DC-6509-4358-A706-69C49A6B8B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724273DC-6509-4358-A706-69C49A6B8B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724273DC-6509-4358-A706-69C49A6B8B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
