@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WalkmanLib\WalkmanLibWin32.cs = WalkmanLib\WalkmanLibWin32.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetCore6", "CSharpConsoleNetCore6\CSharpConsoleNetCore6.csproj", "{B0462F9C-5083-4D50-8169-4F9DFDA40824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore6", "CSharpConsoleNetCore6\CSharpConsoleNetCore6.csproj", "{B0462F9C-5083-4D50-8169-4F9DFDA40824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetCore7", "CSharpConsoleNetCore7\CSharpConsoleNetCore7.csproj", "{724273DC-6509-4358-A706-69C49A6B8B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore7", "CSharpConsoleNetCore7\CSharpConsoleNetCore7.csproj", "{724273DC-6509-4358-A706-69C49A6B8B8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore6", "CSharpWinFormsNetCore6\CSharpWinFormsNetCore6.csproj", "{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWinFormsNetCore7", "CSharpWinFormsNetCore7\CSharpWinFormsNetCore7.csproj", "{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,14 @@ Global
 		{724273DC-6509-4358-A706-69C49A6B8B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724273DC-6509-4358-A706-69C49A6B8B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724273DC-6509-4358-A706-69C49A6B8B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

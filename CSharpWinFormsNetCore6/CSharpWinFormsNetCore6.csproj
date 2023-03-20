@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>Properties\App.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\MainForm.cs" Link="MainForm.cs" />
+    <Compile Include="..\MainForm.Designer.cs" Link="MainForm.Designer.cs" />
+    <Compile Include="..\Shared.cs" Link="Shared.cs" />
+    <Compile Include="..\WalkmanLib\WalkmanLibTheming.cs" Link="WalkmanLibTheming.cs" />
+    <Compile Include="..\WalkmanLib\WalkmanLibWin32.cs" Link="WalkmanLibWin32.cs" />
+    <EmbeddedResource Include="..\MainForm.resx" Link="MainForm.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
