@@ -534,6 +534,7 @@ namespace Forms {
             this.btnGroup.TabIndex = 0;
             this.btnGroup.Text = "Group Box";
             this.btnGroup.UseVisualStyleBackColor = true;
+            this.btnGroup.Click += btnGroup_Click;
             // 
             // panel
             // 
@@ -552,6 +553,7 @@ namespace Forms {
             this.btnPanel.TabIndex = 1;
             this.btnPanel.Text = "Panel";
             this.btnPanel.UseVisualStyleBackColor = true;
+            this.btnPanel.Click += btnPanel_Click;
             // 
             // lblPanel
             // 
@@ -586,6 +588,7 @@ namespace Forms {
             this.btnSplitContainer.TabIndex = 1;
             this.btnSplitContainer.Text = "SplitContainer";
             this.btnSplitContainer.UseVisualStyleBackColor = true;
+            this.btnSplitContainer.Click += btnSplitContainer_Click;
             // 
             // lblSplitContainer
             // 

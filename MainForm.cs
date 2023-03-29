@@ -20,7 +20,7 @@ namespace Forms {
             tabControl.Tag = theme.TabControlTabColors;
             tabControl.DrawItem += WalkmanLib.CustomPaint.TabControl_DrawCustomItem;
 
-            WalkmanLib.ApplyTheme(WalkmanLib.Theme.Dark, this, true);
+            WalkmanLib.ApplyTheme(theme, this, true);
         }
 
         private void MainForm_Load(object _, EventArgs __) {
@@ -55,6 +55,19 @@ namespace Forms {
 
         private void btnMain_Click(object _, EventArgs __) {
             WalkmanLib.ShowProperties(System.IO.Path.Combine(Application.StartupPath, System.Diagnostics.Process.GetCurrentProcess().ProcessName + ".exe"));
+        }
+
+        private void btnGroup_Click(object _, EventArgs __) {
+            ApplyTheme(WalkmanLib.Theme.Default);
+        }
+
+        private void btnPanel_Click(object _, EventArgs __) {
+            WalkmanLib.SaveTheme("dark.json", WalkmanLib.Theme.Dark);
+        }
+
+        private void btnSplitContainer_Click(object _, EventArgs __) {
+            ApplyTheme(WalkmanLib.LoadTheme("dark.json"));
+            System.IO.File.Delete("dark.json");
         }
     }
 }
