@@ -21,10 +21,4 @@
     <EmbeddedResource Include="..\MainForm.resx" Link="MainForm.resx" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="System.Web.Extensions">
-      <HintPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.Extensions.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
