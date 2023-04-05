@@ -35,13 +35,13 @@ public static class Shared {
         Console.WriteLine("NetCore 3.1+");
 #endif
 #if NET5_0
-            Console.WriteLine("NetCore 5.0");
+        Console.WriteLine("NetCore 5.0");
 #endif
 #if NET5_0_OR_GREATER
         Console.WriteLine("NetCore 5.0+");
 #endif
 #if NET6_0
-            Console.WriteLine("NetCore 6.0");
+        Console.WriteLine("NetCore 6.0");
 #endif
 #if NET6_0_OR_GREATER
         Console.WriteLine("NetCore 6.0+");
