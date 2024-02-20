@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CSharpConsoleNetCore7 {
     class Program {

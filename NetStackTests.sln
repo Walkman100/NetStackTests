@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
@@ -7,17 +6,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore3", "CS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore5", "CSharpConsoleNetCore5\CSharpConsoleNetCore5.csproj", "{EC575D9A-F5C1-432E-82E7-8CC26C4C785E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore6", "CSharpConsoleNetCore6\CSharpConsoleNetCore6.csproj", "{B0462F9C-5083-4D50-8169-4F9DFDA40824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore7", "CSharpConsoleNetCore7\CSharpConsoleNetCore7.csproj", "{724273DC-6509-4358-A706-69C49A6B8B8D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetFramework4Point5Point2", "CSharpConsoleNetFramework4Point5Point2\CSharpConsoleNetFramework4Point5Point2.csproj", "{748FB4AB-2300-4D8E-9DEC-F594AAAB4585}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleNetFramework4Point8", "CSharpConsoleNetFramework4Point8\CSharpConsoleNetFramework4Point8.csproj", "{B481592B-9759-4AF2-B524-3904E3950352}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWinFormsNetFramework4Point8", "CSharpWinFormsNetFramework4Point8\CSharpWinFormsNetFramework4Point8.csproj", "{560181CD-51C9-450B-8F15-C88BE3A26A94}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore3", "CSharpWinFormsNetCore3\CSharpWinFormsNetCore3.csproj", "{702E73E0-9171-41A1-9FCE-9334DD9D154E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore5", "CSharpWinFormsNetCore5\CSharpWinFormsNetCore5.csproj", "{CE017D95-581B-49EE-A645-7B38F4566309}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore6", "CSharpWinFormsNetCore6\CSharpWinFormsNetCore6.csproj", "{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore7", "CSharpWinFormsNetCore7\CSharpWinFormsNetCore7.csproj", "{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWinFormsNetFramework4Point5Point2", "CSharpWinFormsNetFramework4Point5Point2\CSharpWinFormsNetFramework4Point5Point2.csproj", "{48B72F8F-54BA-4741-9F9B-D3E18EBCA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWinFormsNetFramework4Point8", "CSharpWinFormsNetFramework4Point8\CSharpWinFormsNetFramework4Point8.csproj", "{560181CD-51C9-450B-8F15-C88BE3A26A94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3E0B564-27F9-46B3-B4BE-B1DB44630867}"
 	ProjectSection(SolutionItems) = preProject
@@ -28,14 +35,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WalkmanLib\WalkmanLibTheming.cs = WalkmanLib\WalkmanLibTheming.cs
 		WalkmanLib\WalkmanLibWin32.cs = WalkmanLib\WalkmanLibWin32.cs
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore6", "CSharpConsoleNetCore6\CSharpConsoleNetCore6.csproj", "{B0462F9C-5083-4D50-8169-4F9DFDA40824}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConsoleNetCore7", "CSharpConsoleNetCore7\CSharpConsoleNetCore7.csproj", "{724273DC-6509-4358-A706-69C49A6B8B8D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpWinFormsNetCore6", "CSharpWinFormsNetCore6\CSharpWinFormsNetCore6.csproj", "{1619FEE2-46ED-47EE-8472-7CB7AC70EEF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWinFormsNetCore7", "CSharpWinFormsNetCore7\CSharpWinFormsNetCore7.csproj", "{E955A6D8-BCD8-41C8-8BCF-9E4D6182CD7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
