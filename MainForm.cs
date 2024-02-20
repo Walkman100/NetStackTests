@@ -7,7 +7,7 @@ namespace Forms {
             InitializeComponent();
         }
 
-        public void Invoke(Action method) => base.Invoke(method);
+        public new void Invoke(Action method) => base.Invoke(method);
         public static DialogResult MessageBoxShow(string text, string caption = null,
                                         MessageBoxButtons buttons = MessageBoxButtons.OK,
                                         MessageBoxIcon icon = MessageBoxIcon.None,
