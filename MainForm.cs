@@ -7,7 +7,11 @@ namespace Forms {
             InitializeComponent();
         }
 
-        public new void Invoke(Action method) => base.Invoke(method);
+        // .net 6+ shows warning, so disable instead of add `new` - adding new shows warnings on .net 3 & 5
+#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
+        public void Invoke(Action method) => base.Invoke(method);
+#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
+
         public static DialogResult MessageBoxShow(string text, string caption = null,
                                         MessageBoxButtons buttons = MessageBoxButtons.OK,
                                         MessageBoxIcon icon = MessageBoxIcon.None,
