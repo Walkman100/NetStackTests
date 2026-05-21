@@ -1,6 +1,10 @@
 using System;
 using System.Windows.Forms;
 
+#if NETCOREAPP
+#nullable disable
+#endif
+
 namespace Forms {
     public partial class MainForm : Form {
         public MainForm() {

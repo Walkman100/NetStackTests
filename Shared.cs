@@ -1,5 +1,9 @@
 using System;
 
+#if NETCOREAPP
+#nullable disable
+#endif
+
 public static class Shared {
     public static Version GetFrameworkVersion() {
         var frameworkName = new System.Runtime.Versioning.FrameworkName(AppDomain.CurrentDomain.SetupInformation.TargetFrameworkName);
@@ -7,6 +11,9 @@ public static class Shared {
     }
 
     public static void WriteCompileTests() {
+#if NETFRAMEWORK4_8
+        Console.WriteLine("NetFramework 4.8");
+#endif
 #if NETCOREAPP
         Console.WriteLine("NetCore");
 #endif
@@ -30,6 +37,9 @@ public static class Shared {
 #endif
 #if NETCOREAPP3_0_OR_GREATER
         Console.WriteLine("NetCore 3.0+");
+#endif
+#if NETCOREAPP3_1
+        Console.WriteLine("NetCore 3.1");
 #endif
 #if NETCOREAPP3_1_OR_GREATER
         Console.WriteLine("NetCore 3.1+");
@@ -57,6 +67,18 @@ public static class Shared {
 #endif
 #if NET8_0_OR_GREATER
         Console.WriteLine("NetCore 8.0+");
+#endif
+#if NET9_0
+        Console.WriteLine("NetCore 9.0");
+#endif
+#if NET9_0_OR_GREATER
+        Console.WriteLine("NetCore 9.0+");
+#endif
+#if NET10_0
+        Console.WriteLine("NetCore 10.0");
+#endif
+#if NET10_0_OR_GREATER
+        Console.WriteLine("NetCore 10.0+");
 #endif
     }
 }
