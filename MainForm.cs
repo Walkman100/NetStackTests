@@ -24,9 +24,10 @@ namespace Forms {
             MessageBox.Show(text, caption, buttons, icon, defaultButton, options);
 
         private void ApplyTheme(WalkmanLib.Theme theme, bool firstRun = false) {
-            WalkmanLib.ApplyThemeRenderer(theme, this.Controls);
+            WalkmanLib.SetPreferredAppMode(theme.SystemAppMode);
             if (firstRun)
                 WalkmanLib.InitCustomRenderers(this.Controls);
+            WalkmanLib.ApplyThemeRenderer(theme, this.Controls);
             WalkmanLib.ApplyTheme(theme, this, true);
         }
 

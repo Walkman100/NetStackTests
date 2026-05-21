@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace CSharpWinFormsNetFramework4Point5Point2.Properties {
+namespace CSharpWinFormsNetFramework4Point5Point2 {
     static class Program {
         /// <summary>
         /// The main entry point for the application.

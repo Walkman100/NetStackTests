@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace CSharpWinFormsNetCore5.Properties {
+namespace CSharpWinFormsNetCore5 {
     static class Program {
         /// <summary>
         /// The main entry point for the application.
