@@ -58,6 +58,9 @@
     <Compile Include="..\Shared.cs">
       <Link>Shared.cs</Link>
     </Compile>
+    <Compile Include="..\WalkmanLib\NativeErrorCodes.cs">
+      <Link>NativeErrorCodes.cs</Link>
+    </Compile>
     <Compile Include="..\WalkmanLib\WalkmanLibTheming.cs">
       <Link>WalkmanLibTheming.cs</Link>
     </Compile>

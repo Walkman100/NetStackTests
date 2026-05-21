@@ -23,11 +23,10 @@ namespace Forms {
                                         MessageBoxOptions options = 0) =>
             MessageBox.Show(text, caption, buttons, icon, defaultButton, options);
 
-        private void ApplyTheme(WalkmanLib.Theme theme) {
-            ToolStripManager.Renderer = new WalkmanLib.CustomPaint.ToolStripSystemRendererWithDisabled(theme.ToolStripItemDisabledText);
-            tabControl.Tag = theme.TabControlTabColors;
-            tabControl.DrawItem += WalkmanLib.CustomPaint.TabControl_DrawCustomItem;
-
+        private void ApplyTheme(WalkmanLib.Theme theme, bool firstRun = false) {
+            WalkmanLib.ApplyThemeRenderer(theme, this.Controls);
+            if (firstRun)
+                WalkmanLib.InitCustomRenderers(this.Controls);
             WalkmanLib.ApplyTheme(theme, this, true);
         }
 
@@ -41,7 +40,7 @@ namespace Forms {
             txtVersions.Text += Environment.NewLine + "DPI: " + this.DeviceDpi;
 #endif
 
-            ApplyTheme(WalkmanLib.Theme.Dark);
+            ApplyTheme(WalkmanLib.Theme.Dark, true);
 
             System.Threading.Tasks.Task.Run(async () => {
                 try {
